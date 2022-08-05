@@ -1,15 +1,16 @@
 apiVersion: v1
 kind: Pod
-metadata:
-  creationTimestamp: null
-  labels:
+metadata: 
+  creationTimestamp: ~
+  labels: 
     run: nginx
   name: dheerajk
-spec:
-  containers:
-  - image: nginx
-    name: dheerajk1
-    resources: {}
+spec: 
+  containers: 
+    - 
+      image: nginx
+      name: dheerajk1
+      resources: {}
   dnsPolicy: ClusterFirst
   restartPolicy: Never
 status: {}
